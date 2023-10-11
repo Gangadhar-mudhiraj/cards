@@ -1,0 +1,23 @@
+.card {
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px grey;
+  transition: box-shadow 0.2s ease 0.1s;
+}
+img {
+  width: 45%;
+  border-radius: 5px 5px 0px 0px;
+}
+.des {
+  padding: 0px 2px 0 2px;
+}
+.card:hover {
+  box-shadow: 10px 10px 10px grey;
+}
